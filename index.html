@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Agile Development Practices</title>
 
 		<meta name="description" content="Agile Development Practices">
 		<meta name="author" content="Ibrahim El-Etr &amp; Mohamed Ragab">
@@ -40,11 +40,13 @@
 
 		<div class="reveal">
 
+			<header class="logo"></header>
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h2>agile development practices</h2>
-					<h3>for sustainable software development</h3>
+
+				<section class="center">
+					<h2>agile development practices</h2> <br/>
+					<h4>for sustainable software development</h4><br/>
 					<p>
 						<small>by <a href="">Ibrahime El-Etr</a> &amp; <a href="">Mohamed Ragab</a></small>
 					</p>
@@ -71,7 +73,7 @@
 							try pressing <a href="#" class="navigate-down">down</a>.
 						</p>
 						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+							<!-- <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow"> -->
 						</a>
 					</section>
 					<section>
@@ -82,14 +84,14 @@
 						<h2>Basement Level 2</h2>
 						<p>Cornify</p>
 						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
+							<!-- <img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn"> -->
 						</a>
 					</section>
 					<section>
 						<h2>Basement Level 3</h2>
 						<p>That's it, time to go back up.</p>
 						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
+							<!-- <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);"> -->
 						</a>
 					</section>
 				</section>
@@ -217,10 +219,10 @@ Reveal.addEventListener( 'customevent', function() {
 							Set <code>data-background="#007777"</code> on a slide to change the full page background to the given color. All CSS color formats are supported.
 						</p>
 						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+							<!-- <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow"> -->
 						</a>
 					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
+<!-- 					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
 						<h2>Image Backgrounds</h2>
 						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
 					</section>
@@ -228,7 +230,7 @@ Reveal.addEventListener( 'customevent', function() {
 						<h2>Repeated Image Backgrounds</h2>
 						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
 					</section>
-				</section>
+ -->				</section>
 
 				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
 					<h2>Background Transitions</h2>
@@ -318,17 +320,13 @@ function linkify( selector ) {
 				<section>
 					<h2>Spectacular image!</h2>
 					<a class="image" href="http://lab.hakim.se/meny/" target="_blank">
-						<img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
+						<!-- <img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny"> -->
 					</a>
 				</section>
 
 				<section>
 					<h2>Export to PDF</h2>
 					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
-					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-					<script>
-						document.getElementById('slideshare').attributeName = 'allowfullscreen';
-					</script>
 				</section>
 
 				<section>
@@ -348,7 +346,7 @@ function linkify( selector ) {
 					</ul>
 				</section>
 
-				<section>
+				<section class="center">
 					<h1>thank you</h1>
 					<h3></h3>
 				</section>
@@ -370,10 +368,10 @@ function linkify( selector ) {
 				history: true,
 				keyboard: true,
 				overview: true,
-				center: true,
+				center: false,
 				mouseWheel: true,
 
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				theme: 'orange', //Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 				transitionSpeed: 'default', // default/fast/slow
 
