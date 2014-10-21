@@ -9,10 +9,10 @@
  * For other themes, change $codeBackground accordingly.
  *
  */
-
- // Default mixins and settings -----------------
+// Default mixins and settings -----------------
 @import "../template/mixins";
 @import "../template/settings";
+
 // ---------------------------------------------
 
 // Include theme-specific fonts
@@ -20,26 +20,29 @@
 // @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
 
 // Colors used in the theme
-$blood: $orangeTextColor; //#a23;
+$blood: $orangeTextColor;
+//#a23;
 $coal: #222;
 $codeBackground: #23241f;
 
 // Main text
-$mainFont: $orangeFontFamily; //Ubuntu, 'sans-serif';
+$mainFont: $orangeFontFamily;
+//Ubuntu, 'sans-serif';
 $mainFontSize: 36px;
 $mainColor: #eee;
 
 // Headings
-$headingFont: $orangeFontFamily; //Ubuntu, 'sans-serif';
-$headingTextShadow: 2px 2px 2px $coal;
+$headingFont: $orangeFontFamily;
+//Ubuntu, 'sans-serif';
+$headingTextShadow: none; //2px 2px 2px $coal;
 
 // h1 shadow, borrowed humbly from
 // (c) Default theme by Hakim El Hattab
-$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
+$heading1TextShadow: none; //0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 20px 20px rgba(0, 0, 0, .15);
 
 // Links
 $linkColor: $blood;
-$linkColorHover: lighten( $linkColor, 20% );
+$linkColorHover: lighten($linkColor, 20%);
 
 // Text selection
 $selectionBackgroundColor: $blood;
@@ -47,7 +50,7 @@ $selectionColor: #fff;
 
 // Background generator
 @mixin bodyBackground() {
-    @include radial-gradient( $coal, lighten( $coal, 25% ) );
+  @include radial-gradient($coal, lighten($coal, 25%));
 }
 
 // Theme template ------------------------------
@@ -57,8 +60,8 @@ $selectionColor: #fff;
 // some overrides after theme template import
 
 .reveal p {
-    font-weight: 300;
-    text-shadow: 1px 1px $coal;
+  font-weight: 300;
+  text-shadow: 1px 1px $coal;
 }
 
 .reveal h1,
@@ -67,153 +70,172 @@ $selectionColor: #fff;
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-    font-weight: 700;
+  //font-weight: 700;
+  text-shadow: none;
 }
 
 .reveal a:not(.image),
 .reveal a:not(.image):hover {
-    text-shadow: 2px 2px 2px #000;
+  text-shadow: none;//2px 2px 2px #000;
 }
 
 .reveal small a:not(.image),
 .reveal small a:not(.image):hover {
-    text-shadow: 1px 1px 1px #000;
+  text-shadow: none;//1px 1px 1px #000;
 }
 
 .reveal p code {
-    background-color: $codeBackground;
-    display: inline-block;
-    border-radius: 7px;
+  background-color: $codeBackground;
+  display: inline-block;
+  border-radius: 7px;
 }
 
 .reveal small code {
-    vertical-align: baseline;
+  vertical-align: baseline;
 }
 
 .slides section {
 
-    h1, h2, h3 {
-        text-transform: lowercase;
-        line-height: 1.4;
-        letter-spacing: 2px;
-        word-spacing: 0.1em;
-        color: $orangeTextColor;
-    }
+  h1, h2, h3 {
+    text-transform: lowercase;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    word-spacing: 0.1em;
+    color: $orangeTextColor;
+  }
 
-    p, ol, ul {
-        line-height: 1.4;
-    }
+  p, ol, ul {
+    line-height: 1.4;
+  }
 
-    a {
-        color: $orangeTextColor;
-        // font-weight: bold;
+  a {
+    color: $orangeTextColor;
+    // font-weight: bold;
 
-        &hover {
-            color: lighten( $orangeTextColor, 15% );
-            text-decoration: underline;
-        }
+    &hover {
+      color: lighten($orangeTextColor, 15%);
+      text-decoration: underline;
     }
+  }
 }
 
-    /*********************************************
-     * CONTROLS
-     *********************************************/
+/*********************************************
+ * CONTROLS
+ *********************************************/
 
 .controls .navigate-left {
-    border-right-color: $interactiveColor !important;
+  border-right-color: $interactiveColor !important;
 }
+
 .controls .navigate-right {
-    border-left-color: $interactiveColor !important;
+  border-left-color: $interactiveColor !important;
 }
+
 .controls .navigate-up {
-    border-bottom-color: $interactiveColor !important;
+  border-bottom-color: $interactiveColor !important;
 }
+
 .controls .navigate-down {
-    border-top-color: $interactiveColor !important;
+  border-top-color: $interactiveColor !important;
 }
 
 .progress span {
-    background: $interactiveColor !important;
+  background: $interactiveColor !important;
 }
 
 .controls {
-    display: none;
-    position: fixed;
-    width: 150px;
-    height: 120px;
-    left: 6%;
-    bottom: 0px;
+  display: none;
+  position: fixed;
+  width: 150px;
+  height: 120px;
+  left: 6%;
+  bottom: 0px;
 }
 
 #reveal .controls a {
-    font-size: 20px;
-    font-family: sans-serif;
-    opacity: 0.1;
-    color: $interactiveColor;
-    text-align: left;
-    display: block;
-    float: left;
-    top: auto;
-    left: auto;
-    bottom: auto;
-    right: auto;
-    position: static;
+  font-size: 20px;
+  font-family: sans-serif;
+  opacity: 0.1;
+  color: $interactiveColor;
+  text-align: left;
+  display: block;
+  float: left;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  right: auto;
+  position: static;
 }
 
 .controls a.enabled {
-    opacity: 0.6;
-    color: $interactiveColor;
-    text-shadow: 0px 0px 2px hsla(185, 45%, 70%, 0.3);
+  opacity: 0.6;
+  color: $interactiveColor;
+  text-shadow: 0px 0px 2px hsla(185, 45%, 70%, 0.3);
 }
 
 .controls a.enabled:active {
-    margin-top: 1px;
-    opacity: 1;
+  margin-top: 1px;
+  opacity: 1;
 }
 
 .controls .right {
-    top: auto;
-    left: auto;
-    bottom: auto;
-    right: auto;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  right: auto;
 }
 
 .controls .left {
-    top: auto;
-    left: auto;
-    bottom: auto;
-    right: auto;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  right: auto;
 }
 
 .controls .up {
-    top: auto;
-    left: auto;
-    bottom: auto;
-    right: auto;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  right: auto;
 }
 
 .controls .down {
-    top: auto;
-    left: auto;
-    bottom: auto;
-    right: auto;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  right: auto;
 }
 
 .indented {
-    padding-left: 2.5cm;
+  padding-left: 2.5cm;
 }
 
 $logoSize: 70px;
 
 $logoBorder: #{($logoSize / 2)};
 .logo {
-    z-index: 10;
-    position: absolute;
-    right: $logoBorder;
-    bottom: $logoBorder;
-    width: $logoSize;
-    height: $logoSize;
-    background-repeat: no-repeat;
-    background-image: url("Orange_logo.svg");
-    background-size: $logoSize $logoSize;
+  z-index: 10;
+  position: absolute;
+  right: $logoBorder;
+  bottom: $logoBorder;
+  width: $logoSize;
+  height: $logoSize;
+  background-repeat: no-repeat;
+  background-image: url("Orange_logo.svg");
+  background-size: $logoSize $logoSize;
+}
+
+ul.orange {
+  //  list-style-type: square;
+  list-style-image: url("Orange_square.svg");
+}
+
+.reveal .slide-number {
+  right: 50%;
+  color: $orangeTextColor;
+}
+
+.reveal span.pointer:before {
+  content: "\FEFF \0020 \25B8 \FEFF \0020";  // space space small-arrow-right space
+  border-left: 5mm;
 }
