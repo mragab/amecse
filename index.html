@@ -60,7 +60,7 @@
             <ul class="orange">
                 <li class="fragment"><b>Ibrahim El-Etr</b>
                     <div>Head of Program Management in Orange Labs Cairo</div>
-                    <div>MBA student in the German University in Cairo</div>
+                    <div>Former head of Mobile Applications and Software Development in Orange Labs Cairo</div>
                 </li>
                 <br/>
                 <li class="fragment"><b>Mohamed Ragab</b>
@@ -83,7 +83,6 @@
             <p>
             <ul class="orange">
                 <li class="fragment"><b>State of affairs</b></li>
-                <li class="fragment"><b>Be agile adopting agile</b></li>
                 <li class="fragment"><b>Agile development methodologies</b></li>
                 <!--<li class="fragment"><b>Challenges</b></li>-->
                 <li class="fragment"><b>From the trenches</b></li>
@@ -119,7 +118,7 @@
         <section data-transition="fade">
             <h2>Show of hands</h2>
             <ul class="orange">
-                <li><b>Where are you from Agile software development?</b>
+                <li><b>What is your Agile software development experience?</b>
                     <div class="fragment" data-fragment-index="1"><span class="fragment current-visible pointer" data-fragment-index="1"></span>
                         Exploring
                     </div>
@@ -442,8 +441,8 @@
             <br/>
             <ul class="orange">
                 <li class="fragment"><b>Roles:</b> Product Owner, Development Team, Scrum Master</li>
-                <li class="fragment"><b>Events:</b> Sprint, Sprint planning meeting, Daily scrum, Spring review &amp; retrospective, Backlog refinement meeting</li>
-                <li class="fragment"><b>Artifacts:</b> Product backlog, Spring backlog, Product increment</li>
+                <li class="fragment"><b>Events:</b> Sprint, Sprint planning meeting, Daily scrum, Sprint review &amp; retrospective, Backlog refinement meeting</li>
+                <li class="fragment"><b>Artifacts:</b> Product backlog, Sprint backlog, Product increment</li>
                 <li class="fragment"><b>Progress:</b> Burndown chart, Burnup chart</li>
                 <li class="fragment"><b>Def. of Done:</b> Backlog item, Sprint, Release</li>
                 <li class="fragment"><b>Relative Sizing:</b> Story points, using a rounded Fibonacci sequence</li>
@@ -503,6 +502,27 @@
         <section data-transition="fade"></section>
 
 
+
+        <section class="center">
+            <!--<h2>Challenges</h2>-->
+            <h2>from the trenches</h2>
+        </section>
+
+
+
+        <section data-transition="fade">
+            <h2>Planning</h2>
+            <br/>
+            <ul class="orange">
+                <li class="fragment">Identify your pains</li>
+                <li class="fragment">Understand the main components of your organization</li>
+                <li class="fragment">Identify your goals</li>
+                <li class="fragment">Then put your strategy for the adoption process</li>
+            </ul>
+        </section>
+
+
+
         <section class="center" data-transition="fade">
             <h2>management and engineering practice</h2>
         </section>
@@ -539,7 +559,7 @@
                 <li class="fragment">Why do the developers hand the code to the testers?</li>
                 <li class="fragment">Is there any duplication?</li>
                 <li class="fragment">How big is the feedback cycle?
-                <span class="fragment"> Seconds, Minutes, Hours, Days, Weeks, Months</span></li>
+                    <span class="fragment"> Seconds, Minutes, Hours, Days, Weeks, Months</span></li>
                 <li class="fragment">How does the development scale over time?</li>
                 <li class="fragment">How does this affect the cycle time?</li>
                 <li class="fragment">Cost of maintaining a software system</li>
@@ -615,42 +635,48 @@
         </section>
 
 
-        <!--<section data-transition="fade">-->
-            <!--<h2>Behaviour driven development</h2>-->
-            <!--<br/>-->
-            <!--<ul class="orange">-->
-                <!--<li class="fragment">todo</li>-->
-            <!--</ul>-->
-        <!--</section>-->
-
-
-        <!--<section data-transition="fade">-->
-            <!--<h2>Continuous integration</h2>-->
-            <!--<br/>-->
-            <!--<ul class="orange">-->
-                <!--<li class="fragment">todo</li>-->
-            <!--</ul>-->
-        <!--</section>-->
-
-
-        <section class="center">
-            <!--<h2>Challenges</h2>-->
-            <h2>from the trenches</h2>
+        <section data-transition="fade">
+        <h2>Behaviour driven development</h2>
+        <br/>
+        <ul class="orange">
+            <li class="fragment">Runnable software specification</li>
+            <li class="fragment">Specification with concrete examples</li>
+            <li class="fragment">Engage the Product Owner, the Tester, and the Developer(s)</li>
+            <li class="fragment">Can be used in a discussion with the customer</li>
+            <li class="fragment">A number of supporting software frameworks</li>
+        </ul>
         </section>
-
 
 
         <section data-transition="fade">
-            <h2>Planning</h2>
+            <h2>BDD: Gherkin language</h2>
+            <br/>
+            <pre><code data-trim>
+Scenario: Some determinable business situation
+  Given some precondition
+    And some other precondition
+   When some action by the actor
+    And some other action
+    And yet another action
+   Then some testable outcome is achieved
+    And something else we can check happens too
+            </code></pre>
+        </section>
+
+        <section data-transition="fade">
+            <h2>Continuous integration</h2>
             <br/>
             <ul class="orange">
-                <li class="fragment">Identify are your pains</li>
-                <li class="fragment">Understand the main components of your organization</li>
-                <li class="fragment">Identify your goals</li>
-                <li class="fragment">Then put your strategy for the adoption process</li>
+                <li class="fragment">A build server</li>
+                <li class="fragment">Build jobs are triggered upon any code modification in version control</li>
+                <li class="fragment">Runs the unit tests, integration tests, and BDD scenarios</li>
+                <li class="fragment">Runs the code through static analysis tools</li>
+                <li class="fragment">Provides feedback on the stability of the software after each build</li>
             </ul>
         </section>
 
+
+        <section data-transition="fade"></section>
 
 
         <section data-transition="fade">
@@ -660,7 +686,7 @@
                 <li class="fragment">Culture eats strategy for lunch, but pain helps</li>
                 <li class="fragment">Is it leadership culture or Command and control culture</li>
                 <li class="fragment">Customer driven organization</li> <!--( we build what customer want not what we want)-->
-                <li class="fragment">The barriers is in our minds, we change only if we try.</li> <!--(baby elephant)-->
+                <li class="fragment">The barriers are in our minds, we change only if we try.</li> <!--(baby elephant)-->
                 <li class="fragment">Openness, willingness to listen to new ideas even if it contradicts with your experience and expertise</li>
                 <li class="fragment">Agile sounds weird, really!! well give it a try</li>
                 <li class="fragment">Then Mindset and the people</li>
@@ -674,7 +700,7 @@
             <ul class="orange">
                 <li class="fragment">Believers, choose your horses</li><br/>
                 <li class="fragment">Non-believers, success by example, bring more to your side</li><br/>
-                <li class="fragment">Not convinced but can give it a try, those are your labor, use them, and help them to believe</li><br/>
+                <li class="fragment">Not convinced but can give it a try, help them to experiment and join</li><br/>
             </ul>
         </section>
 
@@ -727,18 +753,20 @@
             <h2>Trust</h2>
             <br/>
             <ul class="orange">
-                <li>If you do not trust your team, agile not for you</li><br/>
-                <li>Are they working enough?!</li><br/>
+                <li>If you do not trust your team, agile is not for you</li><br/>
+                <li class="fragment">Are they working enough?!</li><br/>
+                <li class="fragment">How can we measure their productivity?!</li><br/>
+                <li class="fragment">Can another team finish it is less time?!</li><br/>
             </ul>
         </section>
 
 
 
         <section data-transition="fade">
-            <h2>Win-win</h2>
+            <h2>Win together</h2>
             <br/>
             <ul class="orange">
-                <li>Single players verse team players</li><br/>
+                <li>Single players versus team players</li><br/>
                 <li>One evaluation, share success and absorb the failure</li><br/>
             </ul>
         </section>
@@ -767,7 +795,7 @@
             <ul class="orange">
                 <li class="fragment">Agile development without engineering practices is a dead end</li>
                 <li class="fragment">How to evolve your design, and code</li>
-                <li class="fragment">Refactoring is not a debt, but we need to minimize it's cost</li>
+                <li class="fragment">Refactoring is not a debt</li>
                 <li class="fragment">Develop for customer, build thin vertical slices, not easy to do</li>
             </ul>
         </section>
@@ -843,7 +871,7 @@
                 <li class="fragment">We succeed together, or we fail together</li>
                 <li class="fragment">If you don't trust your team, Agile is not for you</li>
                 <li class="fragment">Unlearn, learn, practice, and evolve</li>
-                <li class="fragment">Be ware of: not enough training</li>
+                <li class="fragment">Beware of: not enough training</li>
                 <li class="fragment">Be Agile adopting Agile</li>
             </ul>
         </section>

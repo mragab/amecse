@@ -29,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92580646" vertical-offset="6280" max-vertical-offset="22816">
-              <caret line="260" column="0" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.56790125" vertical-offset="16675" max-vertical-offset="23483">
+              <caret line="680" column="0" selection-start-line="680" selection-start-column="0" selection-end-line="680" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -41,8 +41,8 @@
       <file leaf-file-name="from-ibrahim.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/projects-ragab/tdd-bdd-session/pres/from-ibrahim.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4074075" vertical-offset="0" max-vertical-offset="2323">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.6666667" vertical-offset="2270" max-vertical-offset="3128">
+              <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -54,8 +54,8 @@
       <file leaf-file-name="tdd-bdd-presentation.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/projects-ragab/tdd-bdd-session/pres/tdd-bdd-presentation.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-55.62963" vertical-offset="4202" max-vertical-offset="5934">
-              <caret line="248" column="37" selection-start-line="248" selection-start-column="37" selection-end-line="248" selection-end-column="37" />
+            <state vertical-scroll-proportion="-9.62963" vertical-offset="4386" max-vertical-offset="5934">
+              <caret line="202" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,8 +108,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/theme/template/settings.scss" />
         <option value="$PROJECT_DIR$/css/theme/source/orange.scss" />
-        <option value="$USER_HOME$/projects-ragab/tdd-bdd-session/pres/from-ibrahim.md" />
         <option value="$USER_HOME$/projects-ragab/tdd-bdd-session/pres/tdd-bdd-presentation.md" />
+        <option value="$USER_HOME$/projects-ragab/tdd-bdd-session/pres/from-ibrahim.md" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -692,12 +692,12 @@
       <created>1413842064160</created>
       <updated>1413842064160</updated>
       <workItem from="1413842134869" duration="2212000" />
-      <workItem from="1413890812986" duration="50551000" />
+      <workItem from="1413890812986" duration="55827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52763000" />
+    <option name="totallyTimeSpent" value="58039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1233" height="804" extended-state="6" />
@@ -728,12 +728,12 @@
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -808,8 +808,8 @@
     </entry>
     <entry file="file://$USER_HOME$/projects-ragab/tdd-bdd-session/pres/tdd-bdd-presentation.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-55.62963" vertical-offset="4202" max-vertical-offset="5934">
-          <caret line="248" column="37" selection-start-line="248" selection-start-column="37" selection-end-line="248" selection-end-column="37" />
+        <state vertical-scroll-proportion="-9.62963" vertical-offset="4386" max-vertical-offset="5934">
+          <caret line="202" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -819,8 +819,8 @@
     </entry>
     <entry file="file://$USER_HOME$/projects-ragab/tdd-bdd-session/pres/from-ibrahim.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4074075" vertical-offset="0" max-vertical-offset="2323">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.6666667" vertical-offset="2270" max-vertical-offset="3128">
+          <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -830,8 +830,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92580646" vertical-offset="6280" max-vertical-offset="22816">
-          <caret line="260" column="0" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.56790125" vertical-offset="16675" max-vertical-offset="23483">
+          <caret line="680" column="0" selection-start-line="680" selection-start-column="0" selection-end-line="680" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
