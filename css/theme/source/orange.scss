@@ -239,3 +239,18 @@ ul.orange {
   content: "\FEFF \0020 \25B8 \FEFF \0020";  // space space small-arrow-right space
   border-left: 5mm;
 }
+
+.reveal table.orange {
+  border-collapse: collapse;
+  margin: 2cm;
+}
+
+.reveal table.orange,
+.reveal table.orange thead,
+.reveal table.orange thead td,
+.reveal table.orange tr,
+.reveal table.orange tr td {
+  border-width: 1px;
+  border-color: white;
+  padding: 5mm;
+}
