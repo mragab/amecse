@@ -29,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8580247" vertical-offset="10691" max-vertical-offset="16514">
-              <caret line="440" column="0" selection-start-line="440" selection-start-column="0" selection-end-line="440" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.64506173" vertical-offset="11933" max-vertical-offset="17342">
+              <caret line="484" column="40" selection-start-line="484" selection-start-column="40" selection-end-line="484" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -41,8 +41,8 @@
       <file leaf-file-name="tdd-bdd-presentation.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/projects-ragab/tdd-bdd-session/pres/tdd-bdd-presentation.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8518519" vertical-offset="1035" max-vertical-offset="5497">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="-61.592594" vertical-offset="2109" max-vertical-offset="5497">
+              <caret line="164" column="23" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -54,8 +54,8 @@
       <file leaf-file-name="from-ibrahim.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/projects-ragab/tdd-bdd-session/pres/from-ibrahim.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.259259" vertical-offset="0" max-vertical-offset="1817">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            <state vertical-scroll-proportion="-11.925926" vertical-offset="0" max-vertical-offset="1863">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -107,8 +107,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/css/theme/template/settings.scss" />
-        <option value="$USER_HOME$/projects-ragab/tdd-bdd-session/pres/from-ibrahim.md" />
         <option value="$PROJECT_DIR$/css/theme/source/orange.scss" />
+        <option value="$USER_HOME$/projects-ragab/tdd-bdd-session/pres/from-ibrahim.md" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -691,12 +691,12 @@
       <created>1413842064160</created>
       <updated>1413842064160</updated>
       <workItem from="1413842134869" duration="2212000" />
-      <workItem from="1413890812986" duration="38578000" />
+      <workItem from="1413890812986" duration="42011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40790000" />
+    <option name="totallyTimeSpent" value="44223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1233" height="804" extended-state="6" />
@@ -807,8 +807,8 @@
     </entry>
     <entry file="file://$USER_HOME$/projects-ragab/tdd-bdd-session/pres/tdd-bdd-presentation.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8518519" vertical-offset="1035" max-vertical-offset="5497">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="-61.592594" vertical-offset="2109" max-vertical-offset="5497">
+          <caret line="164" column="23" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -818,8 +818,8 @@
     </entry>
     <entry file="file://$USER_HOME$/projects-ragab/tdd-bdd-session/pres/from-ibrahim.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.259259" vertical-offset="0" max-vertical-offset="1817">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        <state vertical-scroll-proportion="-11.925926" vertical-offset="0" max-vertical-offset="1863">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -829,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8580247" vertical-offset="10691" max-vertical-offset="16514">
-          <caret line="440" column="0" selection-start-line="440" selection-start-column="0" selection-end-line="440" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.64506173" vertical-offset="11933" max-vertical-offset="17342">
+          <caret line="484" column="40" selection-start-line="484" selection-start-column="40" selection-end-line="484" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
