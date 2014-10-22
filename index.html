@@ -449,6 +449,19 @@
             </ul>
         </section>
 
+
+        <section data-transition="fade">
+            <h2>Scrum</h2>
+            <img src="449px-Scrum_task_board.jpg" class="stretch"/>
+        </section>
+
+
+        <section data-transition="fade">
+            <h2>Scrum</h2>
+            <img src="800px-SampleBurndownChart.png" class="stretch"/>
+        </section>
+
+
         <section data-transition="fade"></section>
 
 
@@ -485,20 +498,25 @@
             <img src="kanban-board-2.png" class="stretch"/>
         </section>
 
-        <section data-transition="fade">
-            <h2>management and engineering</h2>
-            <br/>
-            <ul class="orange">
-                <li class="fragment">todo</li>
-            </ul>
+
+        <section data-transition="fade"></section>
+
+
+        <section class="center" data-transition="fade">
+            <h2>management and engineering practice</h2>
         </section>
 
 
         <section data-transition="fade">
-            <h2>Test driven development</h2>
+            <h2>Cost and Cycle time</h2>
             <br/>
             <ul class="orange">
-                <li class="fragment">todo</li>
+                <li class="fragment">We are either writing new code, or modifying existing code</li>
+                <br/>
+                <li class="fragment">As a software system grows in size: how does this affect maintenance cost and cycle time?</li>
+                <br/>
+                <li class="fragment">Technical dept due to: taking shortcuts, learning, changing requirements</li>
+                <br/>
             </ul>
         </section>
 
@@ -506,9 +524,92 @@
         <section data-transition="fade">
             <h2>Refactoring</h2>
             <br/>
+            <blockquote class="fragment">Refactoring is: improving the design of existing code, without changing its behaviour</blockquote><br/>
             <ul class="orange">
-                <li class="fragment">todo</li>
+                <li class="fragment">But, how can we be sure the behaviour doesn't change?</li><br/>
+                <li class="fragment">Test the entire system after any refactoring<span class="fragment"> .. cost &amp; time</span></li>
             </ul>
+        </section>
+
+        <section data-transition="fade">
+            <h2>Testing</h2>
+            <ul class="orange">
+                <li class="fragment">Do the developers test the code before handing it to the testers?</li>
+                <li class="fragment">Why do the developers hand the code to the testers?</li>
+                <li class="fragment">Is there any duplication?</li>
+                <li class="fragment">How big is the feedback cycle?
+                <span class="fragment"> Seconds, Minutes, Hours, Days, Weeks, Months</span></li>
+                <li class="fragment">How does the development scale over time?</li>
+                <li class="fragment">How does this affect the cycle time?</li>
+                <li class="fragment">Cost of maintaining a software system</li>
+            </ul>
+        </section>
+
+        <section data-transition="fade">
+            <h2>Automated Testing</h2>
+
+            <blockquote>We are in the business of automating stuff</blockquote>
+
+            <ul class="orange">
+                <li class="fragment">Input > Process > Output</li>
+                <li class="fragment">To test a Process
+                    <ol>
+                        <li>Control Input</li>
+                        <li>Compare actual Output against expected</li>
+                    </ol>
+                </li>
+                <li class="fragment">Testing framework</li>
+                <li class="fragment">Test Driven Development (TDD)
+                    <ol>
+                        <li>Red > Green > Refactor</li>
+                    </ol>
+                </li>
+
+            </ul>
+        </section>
+
+        <section data-transition="fade">
+            <h2>TDD Practices</h2>
+            <br/>
+            <ul class="orange">
+                <li class="fragment">Start from a Red test</li>
+                <li class="fragment">Don't stay Red more than 5 minutes</li>
+                <li class="fragment">A test should be simple, doesn't need a test to test the test</li>
+                <li class="fragment">Treat the test code as first class citizen: readability, maintainability, code reviews</li>
+                <li class="fragment">Trust the tests</li>
+                <li class="fragment">Testing is just sampling</li>
+
+            </ul>
+        </section>
+        <section data-transition="fade">
+            <h2>TDD Practices</h2>
+            <br/>
+            <ul class="orange">
+                <li class="fragment">Don't write redundant tests</li>
+                <li class="fragment">A full test run should not take more than 5 minutes</li>
+                <li class="fragment">Separate unit tests from integration tests (fast and slow)</li>
+                <li class="fragment">Unit Tests: fast, run in memory, repeatable (no randomness, no external dependencies)</li>
+                <li class="fragment">Integration Tests: slow, integrate with external dependencies</li>
+                <li class="fragment">If a test is failing, one should not work on anything else other than fixing it</li>
+            </ul>
+        </section>
+
+
+
+        <section data-transition="fade">
+            <h2>Day to day workflow</h2>
+            <br/>
+            <ul class="orange">
+                <li class="fragment">Checkout</li>
+                <li class="fragment">Run tests</li>
+                <li class="fragment">Green?: add a new feature (red, green, refactor)</li>
+                <li class="fragment">Checkin a working product increment with all tests green</li>
+            </ul>
+        </section>
+
+
+        <section class="center" data-transition="fade">
+            <h2>TDD is a design tool</h2>
         </section>
 
 
@@ -528,7 +629,6 @@
                 <li class="fragment">todo</li>
             </ul>
         </section>
-
 
 
         <section class="center">

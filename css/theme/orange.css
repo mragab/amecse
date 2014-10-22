@@ -274,7 +274,7 @@ body {
   background-image: url("Orange_logo.svg");
   background-size: 70px 70px; }
 
-ul.orange {
+.reveal ul.orange {
   list-style-image: url("Orange_square.svg"); }
 
 .reveal .slide-number {
