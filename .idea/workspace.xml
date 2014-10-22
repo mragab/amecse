@@ -26,13 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="16.1" vertical-offset="4991" max-vertical-offset="10971">
-              <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6095679" vertical-offset="7333" max-vertical-offset="11615">
+              <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#section#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orange.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="orange.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/theme/source/orange.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8580247" vertical-offset="5332" max-vertical-offset="6072">
+            <state vertical-scroll-proportion="-17.0" vertical-offset="5332" max-vertical-offset="6072">
               <caret line="254" column="12" selection-start-line="254" selection-start-column="12" selection-end-line="254" selection-end-column="12" />
               <folding />
             </state>
@@ -108,8 +108,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/theme/template/settings.scss" />
         <option value="$USER_HOME$/projects-ragab/tdd-bdd-session/pres/from-ibrahim.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/theme/source/orange.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -691,12 +691,12 @@
       <created>1413842064160</created>
       <updated>1413842064160</updated>
       <workItem from="1413842134869" duration="2212000" />
-      <workItem from="1413890812986" duration="24326000" />
+      <workItem from="1413890812986" duration="30115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26538000" />
+    <option name="totallyTimeSpent" value="32327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1233" height="804" extended-state="6" />
@@ -762,7 +762,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9315">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#section#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -793,25 +793,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/theme/source/orange.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.1" vertical-offset="4991" max-vertical-offset="10971">
-          <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects-ragab/tdd-bdd-session/pres/tdd-bdd-presentation.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8518519" vertical-offset="1035" max-vertical-offset="5497">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="-17.0" vertical-offset="5332" max-vertical-offset="6072">
+          <caret line="254" column="12" selection-start-line="254" selection-start-column="12" selection-end-line="254" selection-end-column="12" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/projects-ragab/tdd-bdd-session/pres/from-ibrahim.md">
@@ -825,11 +812,24 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/theme/source/orange.scss">
+    <entry file="file://$USER_HOME$/projects-ragab/tdd-bdd-session/pres/tdd-bdd-presentation.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8580247" vertical-offset="5332" max-vertical-offset="6072">
-          <caret line="254" column="12" selection-start-line="254" selection-start-column="12" selection-end-line="254" selection-end-column="12" />
+        <state vertical-scroll-proportion="-0.8518519" vertical-offset="1035" max-vertical-offset="5497">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6095679" vertical-offset="7333" max-vertical-offset="11615">
+          <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
